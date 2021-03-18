@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Dashboard Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.726">
+  <properties />
+  
+  
+            <testcase name="ValidCredentials" time="12.726" classname="com.goDeskless.testcases.LoginDashboard" />
+      
+</testsuite>

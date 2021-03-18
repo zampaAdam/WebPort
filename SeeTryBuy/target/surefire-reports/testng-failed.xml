@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Login Dashboard]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.goDeskless.listeners.CustomListeners"/>
+  </listeners>
+  <test name="Login Dashboard Test(failed)">
+    <classes>
+      <class name="com.goDeskless.testcases.LoginDashboard">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Login_Dashboard_03"/>
+          <include name="Login_Dashboard_05"/>
+          <include name="Login_Dashboard_04"/>
+          <include name="Login_Dashboard_06"/>
+        </methods>
+      </class> <!-- com.goDeskless.testcases.LoginDashboard -->
+    </classes>
+  </test> <!-- Login Dashboard Test(failed) -->
+</suite> <!-- Failed suite [Login Dashboard] -->

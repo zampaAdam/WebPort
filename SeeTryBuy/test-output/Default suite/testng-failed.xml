@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.goDeskless.testcases.User_Profile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CustomerProfile_Negative_04"/>
+          <include name="endReport"/>
+          <include name="CustomerProfile_Negative_07"/>
+          <include name="CustomerProfile_Negative_08"/>
+          <include name="CustomerProfile_02"/>
+          <include name="CustomerProfile_10"/>
+          <include name="setUp"/>
+          <include name="CustomerProfile_03"/>
+          <include name="CustomerProfile_11"/>
+          <include name="CustomerProfile_01"/>
+          <include name="CustomerProfile_05"/>
+          <include name="CustomerProfile_09"/>
+          <include name="CustomerProfile_06"/>
+        </methods>
+      </class> <!-- com.goDeskless.testcases.User_Profile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

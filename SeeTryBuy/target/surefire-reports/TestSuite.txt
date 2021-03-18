@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 441.827 sec <<< FAILURE! - in TestSuite
+Login_Dashboard_03(com.goDeskless.testcases.LoginDashboard)  Time elapsed: 7.391 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.goDeskless.testcases.LoginDashboard.Login_Dashboard_03(LoginDashboard.java:111)
+
+Login_Dashboard_04(com.goDeskless.testcases.LoginDashboard)  Time elapsed: 5.485 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Username and password does not match] but found [Error! User Does not exist..]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.goDeskless.testcases.LoginDashboard.Login_Dashboard_04(LoginDashboard.java:144)
+
+Login_Dashboard_06(com.goDeskless.testcases.LoginDashboard)  Time elapsed: 16.196 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [Terms – goDeskless] but found [Privacy Policy – goDeskless]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.goDeskless.testcases.LoginDashboard.Login_Dashboard_06(LoginDashboard.java:239)
+

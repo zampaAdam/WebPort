@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login Dashboard]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.goDeskless.listeners.CustomListeners"/>
+  </listeners>
+  <test name="Ticket Flow Test(failed)">
+    <classes>
+      <class name="com.goDeskless.testcases.TicketFlow">
+        <methods>
+          <include name="CreateTicketsAssignAgent"/>
+        </methods>
+      </class> <!-- com.goDeskless.testcases.TicketFlow -->
+    </classes>
+  </test> <!-- Ticket Flow Test(failed) -->
+</suite> <!-- Failed suite [Login Dashboard] -->

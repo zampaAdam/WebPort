@@ -1,0 +1,31 @@
+07/09/2020 10:54:45 devpinoyLogger Connecting to database... 
+07/09/2020 10:54:45 devpinoyLogger SQLite Database connection made successfully!
+07/09/2020 10:55:04 devpinoyLogger Config file is loaded
+07/09/2020 10:55:04 devpinoyLogger OR file is loaded
+07/09/2020 10:55:05 devpinoyLogger Chrome browser is launched successfully
+07/09/2020 10:55:45 devpinoyLogger Navigated to : http://nicedevtestdev.godeskless.com/#/
+07/09/2020 10:55:45 devpinoyLogger Browser is maximize
+07/09/2020 10:55:45 devpinoyLogger ---------Testcase 1 verifying user profile page opened---------
+07/09/2020 10:55:46 devpinoyLogger User Name is entered
+07/09/2020 10:55:46 devpinoyLogger Password is entered
+07/09/2020 10:55:50 devpinoyLogger SignIn button is clicked
+07/09/2020 10:56:00 devpinoyLogger test execution is completed
+
+07/09/2020 10:56:00 devpinoyLogger Connecting to database... 
+07/09/2020 10:56:00 devpinoyLogger SQLite Database connection made successfully!
+07/09/2020 10:56:17 devpinoyLogger Config file is loaded
+07/09/2020 10:56:17 devpinoyLogger OR file is loaded
+07/09/2020 10:56:18 devpinoyLogger Chrome browser is launched successfully
+07/09/2020 10:57:19 devpinoyLogger Navigated to : http://nicedevtestdev.godeskless.com/#/
+07/09/2020 10:57:20 devpinoyLogger Browser is maximize
+07/09/2020 10:57:20 devpinoyLogger ---------Testcase 2 validate the edit profile page ---------
+07/09/2020 10:57:20 devpinoyLogger User Name is entered
+07/09/2020 10:57:20 devpinoyLogger Password is entered
+07/09/2020 10:57:24 devpinoyLogger SignIn button is clicked
+07/09/2020 10:57:35 devpinoyLogger test execution is completed
+
+07/09/2020 10:57:35 devpinoyLogger Connecting to database... 
+07/09/2020 10:57:35 devpinoyLogger SQLite Database connection made successfully!
+07/09/2020 10:58:03 devpinoyLogger Config file is loaded
+07/09/2020 10:58:03 devpinoyLogger OR file is loaded
+07/09/2020 10:58:04 devpinoyLogger Chrome browser is launched successfully
